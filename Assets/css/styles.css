@@ -5,6 +5,7 @@
 :root {
   --grey: #5d869c;
   --lightgrey: #a3dfff;
+  --green: rgb(157, 255, 0);
 }
 
 body {
@@ -18,7 +19,7 @@ header {
   width: 100%;
   justify-content: space-between;
   background-color: var(--grey);
-  border-bottom: 3px solid rgb(157, 255, 0);
+  border-bottom: 5px solid var(--green);
   align-items: center;
   height: 100px;
 }
@@ -38,7 +39,8 @@ h1 {
 h2 {
   align-self: start;
   padding: 0.5em;
-  margin-bottom: 1em;
+  margin: 1em 0;
+  border-right: 5px solid var(--green);
 }
 
 h3 {
@@ -120,6 +122,9 @@ footer {
 
 @media (min-width: 720px) {
   .about div {
+    flex-direction: row;
+  }
+  #desktop {
     flex-direction: row;
   }
 }

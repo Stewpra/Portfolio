@@ -6,7 +6,11 @@ The goal of the project was to produce a website portfolio with information abou
 ## Instalation
 
 To instal a clone of my repo follow the instruction.
-In gitbash tpye
+In gitbash type
 
 git clone https://github.com/Stewpra/Portfolio.git
+
+##Links
+https://github.com/Stewpra/Portfolio.git
+https://stewpra.github.io/Portfolio/
 

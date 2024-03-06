@@ -8,5 +8,5 @@ The goal of the project was to produce a website portfolio with information abou
 To instal a clone of my repo follow the instruction.
 In gitbash tpye
 
-git clone 
+git clone https://github.com/Stewpra/Portfolio.git
 
